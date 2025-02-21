@@ -14,6 +14,7 @@ def check_empty_string(target_string_entry):
         messagebox.showwarning("Warning", "The Target String Must Contain Something")
         return 1
 
+
 def start_simulation(target_string_entry, show_generations_text, generations_number_label, main_window):
     global random_mutations, random_addition, random_deletion
     check = check_empty_string(target_string_entry)
